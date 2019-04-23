@@ -23,7 +23,7 @@ extension Data {
 
     func toDictionary() -> [String: AnyObject]? {
         if #available(iOS 9.0, *) {
-            return try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(self) as? [String: AnyObject]
+            return try! NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(self) as? [String: AnyObject]
         } else {
             return NSKeyedUnarchiver.unarchiveObject(with: self) as? [String: AnyObject]
         }
