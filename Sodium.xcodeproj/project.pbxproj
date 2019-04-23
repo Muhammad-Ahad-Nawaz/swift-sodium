@@ -1276,7 +1276,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1305,7 +1305,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1321,7 +1321,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pureftpd.swiftsodium.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SodiumTests;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1333,7 +1333,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pureftpd.swiftsodium.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SodiumTests;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1353,7 +1353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vucontacts.swiftodium.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1370,7 +1370,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vucontacts.swiftodium.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1394,7 +1394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1415,7 +1415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1450,7 +1450,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1482,7 +1482,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1564,7 +1564,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
@@ -1590,7 +1590,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
@@ -1630,7 +1630,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
@@ -1669,7 +1669,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
